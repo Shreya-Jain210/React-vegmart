@@ -1,0 +1,54 @@
+.gifts {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .giftsTop {
+    width: 100%;
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .giftsBottom {
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .giftsBottom p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    width: 1200px;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height:auto;
+  }
+  
+  .gifts .giftsBottom h1 {
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+  }
+  @media only screen and (max-width: 1000px) {
+    .giftsp {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .giftsp {
+      grid-template-columns: 1fr;
+    }
+  }
